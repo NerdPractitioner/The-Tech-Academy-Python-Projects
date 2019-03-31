@@ -13,6 +13,7 @@
                 <!-- Cross Site Request Forgery (csrf_token) protection -->
                 {% csrf_token %}
                 {{ form.non_field_errors }}
+                <!-- as_p makes this paragraph text-->
                 {{ form.as_p }}
             </div>
             <div class="frmBtn_container">
